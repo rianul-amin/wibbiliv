@@ -9,19 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@noble/hashes": "^1.8.0",
+    "@noble/post-quantum": "^0.4.1",
+    "@zxing/library": "^0.21.3",
+    "crypto-hash": "^3.1.0",
+    "jsqr": "^1.4.0",
+    "lucide-react": "^0.503.0",
+    "mlkem": "^2.3.1",
+    "next": "15.3.1",
+    "random-words": "^2.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.1"
+    "react-qr-reader": "2.2.1",
+    "react-qr-scanner": "1.0.0-alpha.11",
+    "react-qrcode-logo": "^3.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.1",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
